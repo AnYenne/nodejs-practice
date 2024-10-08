@@ -1,0 +1,30 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "practice how to use nodejs",
+  "main": "./src/resource/index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./src/resource/index.js",
+    "watch": "node-sass --watch ./src/resource/app.scss --output ./src/public/css/app.css ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AnYenne/nodejs-practice.git"
+  },
+  "author": "Anita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnYenne/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/AnYenne/nodejs-practice#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
